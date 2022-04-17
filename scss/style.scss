@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import '_vari';
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: $text-color;
+}
+.container {
+    width: 90%;
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #BF320D;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    padding: 10px 25px;
+    width: fit-content;
+    &:hover {
+        cursor: pointer;
+        background: $second-color;
+    }
+}
+.subtitle {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.dividers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider {
+   
+    height: 3px;
+    background: #C4C4C4;
+    flex-grow: 2;
+}
+.title {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+@import '_header';
+@import '_promo';
+@import '_about';
+@import '_rew';
+@import '_group';
+@import '_form';
+@import '_footer';
+@import '_modal';
+
+@import '_media';

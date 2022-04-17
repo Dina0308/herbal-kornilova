@@ -1,0 +1,38 @@
+footer {
+    background: linear-gradient(180deg, rgba(120, 190, 32, 0.2) 0%, #78BE20 79.37%);
+    padding: 60px 0;
+    .rew__title {
+        text-align: left;
+        font-weight: 700;
+        
+    }
+}
+.footer {
+    &__wrapper {
+        display: flex;
+        
+    }
+    &__item {
+        margin-right: 30px;
+        width: 300px;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        text-decoration: none;
+        color: $text-color;
+        &:hover {
+            font-weight: 500;
+        }
+        img {
+            margin-right: 5px;
+            width: 20px;
+            
+        }
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
